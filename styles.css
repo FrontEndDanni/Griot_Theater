@@ -1,0 +1,152 @@
+body {
+    background-color:black;
+}
+
+@font-face{
+    font-family:Roboto-ThinItalic.ttf;
+    src: url(Roboto-Medium.ttf);
+}
+* {
+    
+}
+/*GRID TOP*/
+.navbar {
+    opacity: 100%;
+    position: -webkit-sticky;
+    position:sticky;
+    top: 0;
+}
+.navbar-text{
+    color:white;
+}
+
+.grid-container-top {
+    display:grid;
+    grid-template-columns:150vh;
+    grid-template-rows:250px;
+    justify-content: center;
+   margin-bottom:25%;
+}
+
+.img-fluid {
+    opacity:25%;
+    width:1500vh;
+    margin-top:10px;
+}
+
+.grid-item-top {
+    background-color:none;
+    color: white;
+    text-align: center;
+    font-size:xx-large;
+    min-width:100px;
+   
+}
+
+/*GRID MID*/
+
+.grid-container-mid {
+    display:grid;
+    grid-template-columns: 100vh ;
+    grid-template-rows: 40px 130px 130px 130px 130px;
+    margin:2%;
+    grid-gap: 10px;
+    justify-content: center;
+    background-color:rgb(255, 255, 255);
+    padding-bottom:0%;
+    
+
+  
+}
+.grid-item-mid {
+    background-color:none;
+    color:black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.grid-item-mid-1 {
+    background-color:rgb(220, 220, 220);
+    border: 1px rgb(129, 129, 129) solid;
+    padding-left:5%;
+    margin-top:5px;
+    margin-bottom:10px;
+    
+}
+
+.grid-item-mid-2 {
+    align-items:left;
+    
+}
+
+.grid-item-mid-3 {
+    border-top: 1px rgb(76, 76, 76) solid;
+}
+
+.grid-item-mid-4 {
+    border-top: 1px rgb(76, 76, 76) solid;
+}
+
+.grid-item-mid-5 {
+    border-top: 1px rgb(76, 76, 76) solid;
+}
+
+.img-thumbnail {
+    width:100px;
+    height:100px;
+    margin-top:10px;
+}
+
+.grid-item-textbox1 {
+    font-size:smaller;
+    font-weight:bold;
+    text-align: center;
+    width:350px;
+    padding-right:120px;
+    
+}
+.grid-item-textbox2 {
+    font-size:smaller;
+    font-weight:bold;
+    text-align: center;
+    width:350px;
+    padding-right:120px;
+}
+.grid-item-textbox3{
+    font-size:smaller;
+    font-weight:bold;
+    text-align: center;
+    width:350px;
+    padding-right:120px;
+}
+
+.grid-item-textbox4{
+    font-size:smaller;
+    font-weight:bold;
+    text-align: center;
+    width:350px;
+    padding-right:120px;
+}
+
+/*GRID BOTTOM*/
+
+.grid-container-bottom {
+    display:grid;
+    grid-template-columns:250px;
+    grid-template-rows: repeat(4, 300px);
+    justify-content: center;
+    max-height:300px;
+}
+
+.grid-item-bottom {
+    background-color:black;
+    color:white;
+    border: 2px rgb(120, 120, 120) solid;
+    border-radius: 5px;
+}
+
+.map-image {
+    width:100px;
+    height:100px;
+}
